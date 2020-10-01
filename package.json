@@ -1,0 +1,22 @@
+{
+  "name": "hw9-readme-generator",
+  "version": "1.0.0",
+  "description": "Homework #9 - Good Readme Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbcessna/hw9-readme-generator.git"
+  },
+  "author": "Larry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbcessna/hw9-readme-generator/issues"
+  },
+  "homepage": "https://github.com/lbcessna/hw9-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}

@@ -66,7 +66,7 @@ typings/
 *.tgz
 
 # .DS_Store
-*.DS_Store
+*.DS_Store/
 
 # Yarn Integrity file
 .yarn-integrity
