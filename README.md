@@ -1,5 +1,8 @@
 # Readme Generator
 
+## Embeded video
+<iframe src="https://drive.google.com/file/d/15H_SNgfrG1DyLqsLsHWvAkVnHuB2_CFN/preview" width="640" height="480"></iframe>
+
 ## Description
 Readme generator is a console-based javascript file that will create a readme file for you using your answers.
 
