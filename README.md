@@ -22,7 +22,6 @@ npm init
 </pre>
 
 Once the package has been installed, type:
-
 <pre>
 npm install
 </pre>

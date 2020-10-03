@@ -7,7 +7,7 @@ return `
 # - ${ansData.title}
     
 ## - Installation instructions
-<pre>    
+<pre>
 npm init
 </pre>
 
@@ -20,7 +20,7 @@ ${ansData.installation}
 ${ansData.description}
 
 ## - Contributors
-${ansData.contributors}
+http://github.com/${ansData.contributors}
 
 ## - Tests
 ${ansData.tests}
@@ -47,7 +47,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'contributors',
-        message: "Who are the contributors of this project?"
+        message: "Please provide the contributors' github aliases?"
     },
     {
         type: 'input',
@@ -55,14 +55,13 @@ inquirer.prompt([
         message: "Did you run tests and were they successful?"
     }
 ]).then(function (ansData) {
-    console.log(ansData);
     const readMeFileString = createReadMe(ansData);
     fs.writeFile("generatedReadme.md", readMeFileString, function (err) {
         if (err) {
             console.log("Error!");
             console.log(err);
         }else{
-
+            console.log("Successfully created!");
         }
     })
 })
